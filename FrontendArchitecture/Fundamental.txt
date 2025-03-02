@@ -1,0 +1,10 @@
+Foundations:
+
+Software Architecture is about the structure of a system.
+
+how do we define the system or how do we design the system.
+
+Architecture is the decisions you wish, you could get right early in the project.
+Architecture is the things that people perceive as hard to change.
+
+it's about decision made in the early time of the project, that hard to change - people aware on that[perceive];

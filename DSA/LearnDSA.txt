@@ -1,0 +1,16 @@
+1. Solve Faster By Recognizing Patterns.
+2. Practice with Stop Watch
+3. DSA is language Agnostic - it's generalized
+4. free course.
+5. study hacks & practice
+
+need to remember it:
+
+1. how slow the code when data grows
+2. memorize the DSA
+3. Big O
+4. codeWars
+5. grokking Algorithm & Cracking the coding interview.
+6. blind75
+
+basic concepts, dsa, basic dsa - arrays, linked list, Advanced Data structures, Algorithm
