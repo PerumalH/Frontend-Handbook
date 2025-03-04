@@ -8,3 +8,32 @@ Architecture is the decisions you wish, you could get right early in the project
 Architecture is the things that people perceive as hard to change.
 
 it's about decision made in the early time of the project, that hard to change - people aware on that[perceive];
+
+software Architecture - A system's software Architecture is set of significant design 
+decision that how the software is organized to promote desired quality attributes and other properties..
+
+In FrontEnd Architecture - FrontEnd layer is organized well.
+
+Architecture and design are different.
+
+as we said before, Architecture is hard to change once we fix it, because it's come up with lot of people involve 
+during Architecture the application with needed requirement with technology, approach , decision.
+
+design , we can change it later based on new requirement on layouts.
+
+there are 4 dimension in Architecture - 
+style: micro-frontend or other Architecture,
+characteristic: agility, scalability, performance
+design: structural guides - how we handle the data in the application.
+logical component : which approach we choose to drive the UI , design system.
+
+key to note: 
+1. underestimate an Architecture decision
+2. overestimate a design decision.
+
+Responsibilities as frontend Architecture:
+
+1. setting Technical Direction: knows the company's tech, create tech vision and strategy with team, 
+making Architecture decision, code writing and reviewing.
+2. Applying Architecture Thinking: technical breadth, technical depth
+3. doing glue work : writing docs, running meeting, mentorship
