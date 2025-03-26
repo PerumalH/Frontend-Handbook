@@ -1,0 +1,75 @@
+Variables:
+1. Var - Reassigned but can lead to issues in global scope.
+2. let - Ideal for mutable data, such as toggling user login status, updated when the user Logs in.
+3. Const - Once declared, it doesn't let you change what it holds.
+
+Data Types:
+String, Number, Boolean, Symbol, Array, Null, Undefined, object, Function.
+
+Type Coercion:
+1. implicit Type Coercion - Automatic change
+2. Explicit Type Coercion - Manual change with method
+3. Handling Unexpected results - Coercion Pitfalls - == & ===
+4. Dynamic Typing : Variables can change type over Time - var Variable
+
+Scopes - global, local - within the function, Block - Within the loop or conditional one.
+
+Closure - it's create a function that can "remember" their surrounding Environment, even after they are executed in a different scopes.
+used For - callback, eventHandlers, and function factories.
+
+Hoisting - moving declaration to the top of the code, but initialization happen where they are written in the code.
+
+function declarations are fully hoisted.
+variable declared with var are hoisted with undefined.
+variable declared with let and const are hoisted but in the temporal dead zone. (TDZ)
+
+TDZ occurs when trying to access a variable before it's initialized, causing a referenceError.
+use let and const instead of var to avoid unexpected behavior and to manage scoping better.
+
+This - behave different strict and non-strict
+
+this - always point to object or undefine
+
+global Scope : Window object, function, object
+
+non-strict:
+
+if object is present, output object or window.
+function call with object, it point out the object.
+
+Advanced - when this is present in the async method.- window.
+
+strict:
+if object is present, output object or undefined
+Advanced - when this is present in the async method. - undefine.
+
+call - change the object reference, with pass argument 1,2,3.
+apply - change the object reference, with pass argument [1,2,3].
+
+bind - change the object reference and create a function. and then we pass the argument in the function.
+
+it's always point to the reference.
+ 
+// Advanced - when this is present in the async method.
+
+arrow function - this - refer to the object at the time of the creation - it doesn't have own this.
+
+Function: -block of code used to perform particular task and you can call it whenever you need it.
+
+
+1. function declaration - named Function.
+2. function expression - Anonymous Function - often assigned to variables or passed as arguments.
+3. arrow Function - shorter Syntax - also affect how this behaves within them - don't have own this.
+4. IIFE - it'll execute immediately, after define it. don't need to call it.
+5. HOF - it takes function as argument and return a function as a result.
+6. callback Function - function passed into another function, and invoked inside the outer function.
+7. constructor Function - to create objects.
+8. function parameter and return values.
+9. rest - allows you to pack the sequence of value as a array.
+10. spread - allows you to unpack elements from the array or object.
+
+Object : collection of related data and methods.
+accessing the object - dot notation and bracket notation.
+
+Array : collection of values store in single variables.
+accessing the array: by index with bracket notation.
