@@ -73,3 +73,14 @@ accessing the object - dot notation and bracket notation.
 
 Array : collection of values store in single variables.
 accessing the array: by index with bracket notation.
+
+
+Prototypal Inheritance:
+inheritance - when one object get access to another object's properties and methods.
+prototype chain - a chain where objects lookup their prototypes to find the property or method they need.
+
+
+different way of inheritance:
+1. with object.create()
+2. constructor function and prototype - multiple object with share the same prototype.
+3. ES6 class - syntactic sugar over the Prototypal - inherit by extends.
